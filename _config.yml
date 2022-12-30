@@ -1,0 +1,58 @@
+# Site Settings
+baseurl: ""
+url : "https://thomasbillington.github.io"
+
+# Blog Settings
+theme_settings :
+  title : Tom Billington
+  favicon : assets/favicon.ico
+
+  # Profile Settings
+  profile :
+    image : assets/img/profile.jpg
+    username : Tom Billington
+    description : A lead software engineer with experince working in and leading award winning teams building modern applications for the UK public sector.
+    experience :
+      - start : October 2021
+        end: Present
+        experience : Lead Software Engineer @ Kainos
+      - start : October 2019
+        end: September 2021
+        experience : Senior Software Engineer @ Kainos
+      - start : August 2018
+        end: August 2019
+        experience : Associate Software Engineer @ Kainos
+      - start : November 2012
+        end: July 2018
+        experience : Software Engineer @ Capgemini
+    skills :
+      - skill : Angular
+      - skill : Amazon Web Services
+      - skill : Azure
+      - skill : Dynamics 365
+      - skill : Express
+      - skill : React
+      - skill : SharePoint
+      - skill : Typescript
+        
+  # Icons
+  icons :
+    email:  contact@thomasbillington.co.uk
+    linkedin: TomBillingtonUK
+    github: TomBillingtonUK
+    twitter: TomBillingtonUKß
+
+  # Disqus
+  disqus_shortname :
+
+# Pagination
+paginate: 5
+paginate_path: "blog/page:num"
+
+# Build Settings
+sass:
+  sass_dir: _sass
+  style: :compressed
+plugins: [jekyll-paginate]
+bootstrap:
+  assets: true

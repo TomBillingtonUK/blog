@@ -1,0 +1,65 @@
+- project :
+    print : True 
+    modal : True
+    url : https://github.com/orgs/dvsa/repositories?q=ftts&type=all&language=&sort=
+    image : "dvsa-theory-test-centre.jpg"
+    date : April 2020 - Present
+    title : DVSA Theory Test Service
+    description : The driving theory test is a rite of passage for 1.6m drivers annually, and often one of citizens’ first interactions with UK government. 
+    contents :
+        - title: Our job
+          description : 
+            For 19 years, a single supplier had controlled one of the world's largest online testing services. Our job was to disaggregate the service and build something to support 3 million tests a year.
+            <br/>
+            We were the digital integrator, providing the platform for DVSA to run and manage the test and orchestrating the ten third-party systems in use.
+        - title : Technologies Used
+          description :
+            <li> Azure Function Apps </li>
+            <li> Dynamics 365 </li>
+            <li> Cosmos DB</li>
+            <li> Express </li>
+            <li> Node Js</li>
+            <li> Nunjucks</li>
+            <li> Power Apps Portals</li>
+            <li> Typescript</li>
+        - title: Outcomes
+          description : 
+            <li> £15.4 million of savings over the next 5 years</li>
+            <li> 96% customer satisfaction</li>
+            <li> 126% increase in tests with accessibility adjustments</li>
+            <li> Up to 15,000 tests per day more then double the previous record</li>
+        - title: More Information
+          description:
+            Check out the case study from Kainos
+            <br/>
+            <a href="https://www.kainos.com/insights/success-stories/digitally-transforming-the-driver-theory-test" target="_blank">https://www.kainos.com/insights/success-stories/digitally-transforming-the-driver-theory-test</a>
+
+- project :
+    print : True  
+    modal : True
+    url :  https://github.com/orgs/dvsa/repositories?q=des+OR+mes&type=all&language=&sort=
+    image : "dvsa-des.jpg"
+    date : October 2018 - March 2020
+    title : DVSA Driving Examiner Services
+    description : The modernization of the driving examination process, transforming the daily working lives of over 1600 driving examiners.
+    contents:
+      - title: Our job
+        description : 
+          Since its inception, the practical driving test was marked with pen and paper. Our challenge was to build an iPad application to allow DVSA to mark the test digitally on the road safely and securely.
+          <br/>
+      - title : Technologies Used
+        description :
+          <li> Angular </li>
+          <li> Amazon Web Services </li>
+          <li> Ionic </li>
+          <li> Lambda </li>
+          <li> Typescript </li>
+      - title: Outcomes
+        description : 
+          <li> Reduction of 8 million sheets of paper per year</li>
+          <li> Driving Licences now issued in 3 days instead of 3 weeks</li>
+          <li> 1560 hours a week saved handwriting reports</li>
+      - title: Additional Information
+        description: 
+          <iframe width="360" height="202" src="https://www.youtube.com/embed/7N_I6nvWwIg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <a href="https://go.kainos.com/rs/272-PGO-379/images/DVSA_Case_Study_-_Transforming_an_85_year_old_driving_test_process.pdf" target="_blank"> Case Study</a>
