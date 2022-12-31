@@ -1,6 +1,7 @@
 # Site Settings
 baseurl: ""
 url : "https://thomasbillington.co.uk"
+timezone: Europe/London
 
 # Blog Settings
 theme_settings :
