@@ -1,26 +1,26 @@
 ---
 layout: post
-title: The one principle all engineers should follow.
+title: The one habit all software engineers should have
 subtitle : And it will only take you five minutes to implement
 tags: [Software Engineering, Principles]
 author: Thomas Billington
 comments : False
 ---
-As software engineers, we typically build software within the confines of the project management triangle (cost, time, scope). We can never deliver perfect code with all the features our customers want in the timeframes that keep the management happy. When the triangle favours cost and scope, then quality dips, and we create technical debt.
+As software engineers, we typically build software within the confines of the project management triangle. We can never deliver perfect code with all the features our customers want in the timeframes and budget that keep the management happy. Quality dips when the triangle sways too much in one direction, and we create technical debt.
 <br/>
 <br/>
 ![Project Management Triangle](/assets/img/posts/2023-01-01-leave-code-in-better-place/project-management-triangle.png)
 <br/>
 <br/>
-Life as a software engineer is also a path of constant learning; your code will look different today compared to twelve months ago. When you work in a team, new things come in even faster and better ways of doing things come around more often.
+Life as a software engineer is also a path of constant learning. The team members around you will also accelerate your knowledge, so there will be a continuous flow of new ideas and approaches into the code base. The output will create inconsistency in the code base as your code will look different today compared to twelve months ago.
 <br/>
 <br/>
-Being realistic, as engineers, we will never have zero technical debt or get the code base entirely consistent. It's impossible to do as our customers will always want new features and management will only give us the time and money to achieve it.
+As engineers, we will never have perfect code, zero technical debt, or consistency. It's impossible to do as our customers will always want new features and management will only give us the time and money to achieve it.
 <br/>
 <br/>
-We can't make the code base perfect, but there are things we can do. Some of the ideas I've seen put in place include:
-- Dedicating a percentage of a sprint to technical improvements (Usually a 60/20/20 split Features/Bugs/Tech Debt)
-- Spending an entire sprint to technical improvements
+To reduce the inconsistency and tech debt I've seen teams:
+- Dedicate a percentage of a sprint to technical improvements (Usually a 60/20/20 split Features/Bugs/Tech Debt)
+- Spend an entire sprint to technical improvements
 - Only committing engineers to a 60% workload so the other 40% can be used for meetings, personal development and technical improvements.
 
 <br/>
