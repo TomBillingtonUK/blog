@@ -2,6 +2,9 @@
 layout: post
 title: Why the size of your package matters
 subtitle : And you need check how big it is
+image: assets\img\posts\2023-01-08-why-package-size-matters\social-media-post.png
+imageWidth: 1080
+imageHeight: 1080
 tags: [Devops, Time Savers]
 author: Thomas Billington
 comments : False

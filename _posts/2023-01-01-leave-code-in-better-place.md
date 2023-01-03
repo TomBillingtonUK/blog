@@ -2,6 +2,9 @@
 layout: post
 title: The one habit all software engineers should have
 subtitle : And it will only take you five minutes to implement
+image: assets/img/posts/2023-01-01-leave-code-in-better-place/social-media-post.png
+imageWidth: 1080
+imageHeight: 1080
 tags: [Software Engineering, Principles]
 author: Thomas Billington
 comments : False
