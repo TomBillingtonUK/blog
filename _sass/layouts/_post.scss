@@ -58,6 +58,11 @@
     background-color: $theme-dark2;
 }
 
+#mailchimp-post {
+    @extend %page-padding;
+    border-top: 5px solid #e7e9ee;
+}
+
 #comments{
     @extend %page-padding;
     div.border{
