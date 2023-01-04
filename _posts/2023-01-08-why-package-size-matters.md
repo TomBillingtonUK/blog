@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Why the size of your package matters
-subtitle : And you need check how big it is
+title: Speeding up the Upload Artifact GitHub Action
+subtitle : Taking the default Azure Web Deployment template and reducing the 40 minute build to 1 minute 48 seconds
 image: assets\img\posts\2023-01-08-why-package-size-matters\social-media-post.png
 imageWidth: 1080
 imageHeight: 1080
-tags: [Devops, Time Savers]
+tags: [Devops, Time Savers, GitHub Actions]
 author: Thomas Billington
 comments : False
 ---
