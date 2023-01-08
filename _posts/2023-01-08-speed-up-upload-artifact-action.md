@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Speeding up the Upload Artifact GitHub Action
+title: Speeding up the "Upload Artifact" GitHub Action
 subtitle : Taking the default Azure Web Deployment template and reducing the 40 minute build to 1 minute 48 seconds
-image: assets\img\posts\2023-01-08-why-package-size-matters\social-media-post.png
+image: assets\img\posts\2023-01-08-speed-up-upload-artifact-action\social-media-post.png
 imageWidth: 1080
 imageHeight: 1080
 tags: [Devops, Time Savers, GitHub Actions]
@@ -119,7 +119,7 @@ There was no drastic reduction in build time; however, it felt nice to know the 
 In this extreme example, I shaved around 40 minutes off the build process, mainly because the default GitHub action template isn't performant. There is some advice I would give to those reading which is:
 <br/>
 <br/>
-![Check the size of your package today](/assets/img/posts/2023-01-08-why-package-size-matters/check-size-of-package-today.png)
+![Check the size of your package today](/assets/img/posts/2023-01-08-speed-up-upload-artifact-action/reduce-size-of-package.png)
 <br/>
 <br/>
 An efficient build process means that you are waiting around less. A shorter feedback loop will help you build and test code faster. Think back to 2022; if each build you did took 30 seconds less, how many hours would you have saved?
