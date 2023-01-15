@@ -5,7 +5,7 @@ subtitle : Taking the default Azure Web Deployment template and reducing the 40 
 image: assets/img/posts/2023-01-08-speed-up-upload-artifact-action/social-media-post.png
 imageWidth: 1080
 imageHeight: 1080
-tags: [Devops, Time Savers, GitHub Actions]
+tags: [DevOps, Time Savers, GitHub Actions]
 author: Thomas Billington
 comments : False
 ---
