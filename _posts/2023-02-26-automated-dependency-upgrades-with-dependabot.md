@@ -54,7 +54,6 @@ updates:
       include: 'scope'
     open-pull-requests-limit: 3
 ```
-
 <br/>
 <br/>
 As you can see, I've told it at 6:00 am every day to look for out-of-date dependencies and allowed it to create up to 3 pull requests with updates. I went to sleep and woke up to see:
@@ -70,6 +69,7 @@ I had three pull requests ready to approve, one was successfully built, and two 
 I'm not too fond of having multiple pull requests every morning to merge manually. To fix this, I created a GitHub action to set the pull request to auto-merge.
 <br/>
 <br/>
+{% raw %}
 ```yml
 name: Dependabot auto-merge
 on: pull_request
@@ -94,6 +94,7 @@ jobs:
           PR_URL: ${{github.event.pull_request.html_url}}
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 ```
+{% endraw %}
 <br/>
 <br/>
 With the action set up and merged, every time the pull request is updated, the action will check to see if it's Dependabot, and if it is, set the pull request to merge automatically.
