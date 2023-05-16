@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Takeaways from LFC131 - Green Software from Practitioners
+title: Takeaways from LFC131 - Green Software for Practitioners
 subtitle :
-image: assets/img/posts/2023-03-05-github-actions-storage-limits/social-media-post.png
+image: assets/img/posts/2023-05-16-takeways-from-lfc131/social-media-post.png
 imageWidth: 1080
 imageHeight: 1080
-tags: [GitHub Actions, DevOps]
+tags: [ Green Software, DevOps, Courses]
 author: Thomas Billington
 comments : False
 ---
@@ -24,19 +24,19 @@ I have a habit of provisioning a larger resource than I need; for example, one o
 Most people assume that a server uses a percentage of the maximum power based on the server's busyness. As per the image below:
 <br/>
 <br/>
-![Linear power consumption example]](/assets/img/posts/2023-05-10-takeways-from-lfc131/linear-power-consumption.png)
+![Linear power consumption example](/assets/img/posts/2023-05-16-takeways-from-lfc131/linear-power-consumption.png)
 <br/>
 <br/>
 The above calculations are incorrect; Google did some research back in 2007 into [Energy Proportional Computing](https://research.google/pubs/pub33387/), which shows that a server just being turned on will use approximately 50% of the maximum power, as per the graph below:
 <br/>
 <br/>
-![Energy proportional computing graph]](/assets/img/posts/2023-05-10-takeways-from-lfc131/energy-proportionality-graph.png)
+![Energy proportional computing graph](/assets/img/posts/2023-05-16-takeways-from-lfc131/energy-proportionality-graph.png)
 <br/>
 <br/>
 That means that the actual usage calculations would be:
 <br/>
 <br/>
-![Energy proportional computing example]](/assets/img/posts/2023-05-10-takeways-from-lfc131/energy-proportionality.png)
+![Energy proportional computing example](/assets/img/posts/2023-05-16-takeways-from-lfc131/energy-proportionality.png)
 <br/>
 <br/>
 When building applications, we should attempt to use as little energy as possible. Based on Google's findings, I should be actively trying to keep all my services running at a high utilisation with auto-scaling enabled to deal with spikes. As a bonus, I'm avoiding overprovisioning, which means I'm potentially reducing my monthly cloud bills.
